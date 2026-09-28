@@ -28,7 +28,7 @@ libc = "0.2"
 # The overlay window. x11rb's RustConnection and wayland-backend's Rust backend need no
 # libX11 / libwayland at all, so the binary loads no system libraries for the window.
 x11rb = { version = "0.13", features = ["shape", "randr"] }
-smithay-client-toolkit = { version = "0.19", default-features = false }
+smithay-client-toolkit = { version = "0.21", default-features = false }
 wayland-client = "0.31"
 
 [dev-dependencies]
